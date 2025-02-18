@@ -1,6 +1,11 @@
-#In this problem, you are given an array that represents a flowerbed, where each element in the array can either be 0 or 1. An element with a value of 0 implies that the corresponding plot in the flowerbed is empty, while an element with a value of 1 suggests that there is a flower already planted in that plot. The challenge is to plant new flowers (represented by n) in the empty plots under the condition that no two flowers can be adjacent to each other. If it's possible to plant n new flowers following this rule, you must return true, otherwise, you return false.
+#In this problem, you are given an array that represents a flowerbed,
+#where each element in the array can either be 0 or 1. An element with a value of 0 implies that the corresponding plot in the flowerbed is empty,
+#while an element with a value of 1 suggests that there is a flower already planted in that plot.
+#The challenge is to plant new flowers (represented by n) in the empty plots under the condition that no two flowers can be adjacent to each other. 
+#If it's possible to plant n new flowers following this rule, you must return true, otherwise, you return false.
 
-#The key to solving this problem is understanding that you can plant a flower in the current empty plot (i) only if both the preceding (i - 1) and following (i + 1) plots are also empty. 
+#The key to solving this problem is:
+#understanding that you can plant a flower in the current empty plot (i) only if both the preceding (i - 1) and following (i + 1) plots are also empty. 
 
 
 def canPlaceFlowers(flowerbed, n):
