@@ -1,4 +1,5 @@
-
+#In this code base we try to deal with interchanging the vowels position or we can say interchange the vowel position.
+#And add the 2 words as well to return a string.
 def merge(word1, word2):
     result =[]
     i = 0
